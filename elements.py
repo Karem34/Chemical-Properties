@@ -17,7 +17,11 @@ class Element():
         self.name = self.__get_element()
         self.symbol = self.__get_symbol()
         self.electron_configuration = self.__electronConfig()
-        
+        self.all = self.__all()
+
+    def __all(self):
+        return self.name, self.symbol, self.atomic_number, self.number_of_electrons, self.number_of_protons, self.number_of_electrons, self.electron_configuration
+
     def __electronConfig(self):
         elec = self.number_of_electrons
         elec_config = []
@@ -57,6 +61,7 @@ class Element():
         elif self.iden in names:
             elec = self.elements_full.index(self.iden)
         else:
-            
             return 
         return elec+1
+
+print(Element(5).all)
