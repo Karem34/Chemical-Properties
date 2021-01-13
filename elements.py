@@ -63,5 +63,3 @@ class Element():
         else:
             return 
         return elec+1
-
-print(Element(5).all)
