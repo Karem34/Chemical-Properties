@@ -13,7 +13,6 @@ class Element():
         self.atomic_number = atn
         self.number_of_electrons = atn
         self.number_of_protons = atn
-        self.number_of_neutrons = atn
         self.name = self.__get_element()
         self.symbol = self.__get_symbol()
         self.electron_configuration = self.__electronConfig()
