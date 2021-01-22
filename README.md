@@ -4,7 +4,7 @@ Python module for getting simple chemical properties of any element.
 
 ## Features
 - Atomic Number.
-- Number of electrons/protons/neutrons.
+- Number of electrons/protons.
 - Electron Configuration.
 - Name/Symbol.
 
